@@ -1,0 +1,39 @@
+/*HEADER*/
+.tamLogo {
+  width: 50%; }
+
+.anclaColorFondo {
+  background-color: black; }
+
+.navbar {
+  background-color: black; }
+
+h5:hover {
+  color: #eaee2b; }
+
+.imagenHoteleria:hover {
+  height: 110%;
+  width: 110%; }
+
+.imagenPlomer:hover {
+  height: 110%;
+  width: 110%; }
+
+.imagenGastro:hover {
+  height: 110%;
+  width: 110%; }
+
+.imagenEventos:hover {
+  height: 110%;
+  width: 110%; }
+
+h3 {
+  font-size: 130%; }
+
+/*CARROUSEL*/
+.letraCarrousel {
+  color: black;
+  background-color: #eaee2b;
+  text-align: center;
+  border-color: blanchedalmond;
+  border-width: 10%; }

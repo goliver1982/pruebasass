@@ -1,0 +1,46 @@
+/*MEDIA QUERY CELU*/
+
+@media (max-width: 768px) {
+    body {
+        background-color:$color-primario;        
+    }
+
+    h5 { color: #eaee2b;}
+
+    h2 { color: #eaee2b;}
+
+    .navbar {
+        background-color: #eaee2b;
+    }
+    
+    }
+
+    .btn {
+       background-color: #eaee2b;
+    }
+    
+/*MEDIA QUERY TABLET*/ 
+
+@media (min-width: 769px) and (max-width: 1199px) {
+
+}
+
+h2 {
+    text-align: center;
+    margin: 2%;
+    background-color: #eaee2b ;
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+
+.botonSumate {
+    background-color:$color-primario;
+    
+    
+}
+
+.botonSum {
+        background-color: black;
+}
