@@ -1,0 +1,10 @@
+/*Extend*/
+.estiloPrimario {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.estiloSecundario {
+    @extend .estiloPrimario;
+    font-weight: bold;
+}

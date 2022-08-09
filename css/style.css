@@ -1,3 +1,35 @@
+h1 {
+  color: aquamarine; }
+
+/*MAP*/
+.botUno {
+  color: bisque; }
+
+.botDos {
+  color: green; }
+
+.botTres {
+  color: yellow; }
+
+/* MAP - GET*/
+.guadaGraf {
+  background-color: aquamarine;
+  font-size: 25px; }
+
+/*Extend*/
+.estiloPrimario, .estiloSecundario {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  text-align: center; }
+
+.estiloSecundario {
+  font-weight: bold; }
+
+.titulosEsiloPrimario {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2rem;
+  text-align: justify; }
+
 /*HEADER*/
 .tamLogo {
   width: 50%; }

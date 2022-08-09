@@ -1,9 +1,10 @@
-/*MAPS*/
-
-$mapRedes: (facebook: green, instagram: blue, twitter: yellow);
-@each $red, $color in $mapRedes {
-    .#{$red} {
-        color: $color;
-    }
+h1 { color: aquamarine;}
+/*MAP*/
+$botonesNavegador: (botUno: bisque, botDos: green, botTres: yellow);
+@each $red, $color in $botonesNavegador {
+    .#{$red} {color:$color}
+    
 }
 
+
+/* MAP - GET*/$estilo:(color:aquamarine, tamFuente:25px, font-color: grey);.guadaGraf {background-color: map-get($map: $estilo, $key: color);font-size: map-get($map: $estilo, $key: tamFuente);}
