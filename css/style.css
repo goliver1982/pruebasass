@@ -27,12 +27,12 @@ h1 {
 
 .titulosEsiloPrimario {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: justify; }
 
 /*HEADER*/
 .tamLogo {
-  width: 50%; }
+  width: auto; }
 
 .anclaColorFondo {
   background-color: black; }
