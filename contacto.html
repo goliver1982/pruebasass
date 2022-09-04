@@ -39,10 +39,10 @@
 <nav class="navbar navbar-expand-lg bg-black">
 <div class="container-fluid bg-black ">
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-   <span class="navbar-toggler-icon"></span>
-</button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <img src="img/iconoburguer.png"  width="30rem"  alt="boton menu desplegable">
+   </button>
 
 
 <div class="collapse navbar-collapse" id="navbarNav">
@@ -74,8 +74,10 @@
 
 </nav> 
 
-<div class="container-fluid botonSum">
-<a class="btn botonSumate text-white" href="registrate.html" role="button"> clic y Sumate a la comunidad!</a>
+
+
+<div class="container px-4 botonSum">
+<a class="btn botonSumate text-white mb-3" href="registrate.html" role="button">  clic y sumate a la comunidad!</a>
 </div>
 
 <div class="container-fluid">
@@ -86,43 +88,34 @@
                     <fieldset>
                         <legend class="text-left header modal-title text-left text-white" style="font-size: 1rem ">Queremos saber de vos!</legend>
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
-                            </div>
-                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Nombre</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">e-mail</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Teléfono</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Zona (Barrio/Localidad/Provincia)</label>
+                          </div>
+                          
+                          <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Escribinos acá y más rápido que inmediatamente tendrás respuesta</label>
+                          </div>
+                          
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="email" name="email" type="text" placeholder="Correo Electrónico" class="form-control">
-                            </div>
-                        </div>
+                        
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Escribí acá tu mensaje. Y más rápido que inmediatamente recibirás tu respuesta... porque nosotros somos los buenos, bonitos y baratos de las redes" rows="7"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
+                        <div class="form-group ">
                             <div class="col-md-12 text-right ">
-                                <button type="submit" class="btn text-black modal-title text-center text-white" style="font-size: 1rem ">Enviar</button>
+                                <button type="submit" class="btn text-black modal-title text-center text-white " style="font-size: 1rem ">Enviar</button>
                             </div>
                         </div>
                     </fieldset>
@@ -130,6 +123,19 @@
             </div>
         </div>
     </div>
+</div>
+</div>
+
+<div class="col  ">
+
+    <div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d38395.23461924422!2d-65.00778947638862!3d-31.72432534737877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1662267378908!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class="fixed-bottom"><img src="img/logoWhatsapp.png" alt=""></div>
+
+
 </div>
 
  <!-- FOOTER -->

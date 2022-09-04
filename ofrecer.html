@@ -39,10 +39,10 @@
 <nav class="navbar navbar-expand-lg bg-black">
 <div class="container-fluid bg-black ">
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-   </button>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <img src="img/iconoburguer.png"  width="30rem"  alt="boton menu desplegable">
+</button>
 
 
    <div class="collapse navbar-collapse" id="navbarNav">
@@ -92,9 +92,21 @@
           <div class="col">
            <div class="p-3 border bg-black modal-title text-center text-white" style="font-size: 1rem ">Tips para vender de la mejor manera lo que hacés!</div>
            
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/W3BsNKXswZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/skdFS1pJkcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <p class="modal-title text-justify text-white" style="font-size: 1rem ">Tener el mejor producto o servicio del mundo no basta, también hay que saber venderlo. Hemos reunido los consejos de diversos expertos sobre cómo hacerlo. Sigue estos sencillos tips para saber cómo vender y comercializar un producto.
 
-          </div>
+            Da a conocer tu producto
+            Acepta los fracasos y no te desanimes
+            No seas arrogante
+            Acierta con los clientes
+            Conoce e investiga el sector
+            Diferencia tu producto y/o ofrécelo con algo novedoso
+            Utiliza la red de ventas
+            No hagas spam
+            Sé honesto
+            Mejora el producto</p>
+           
+        </div>
 
 
           <div class="col">
@@ -105,29 +117,29 @@
                         <br>
 
                         <div>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Seleccioná tu grupo
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-end">
-                                  <li><button class="dropdown-item" type="button">Servicio</button></li>
-                                  <li><button class="dropdown-item" type="button">Producto</button></li>
-                                  <li><button class="dropdown-item" type="button">Otro</button></li>
-                                </ul>
-                              </div>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Seleccioná el grupo a ofrecer</option>
+                                <option value="1">Producto</option>
+                                <option value="2">Servicio</option>
+                                <option value="3">Otro</option>
+                              </select>
                         </div>
 
         
-                        <div class="form-floating w-30">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Usuario</label>
-                        </div>
-                        <div class="form-floating">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Contraseña</label>
-                        </div>
+                        <form>
+                            <div class="mb-3 text-white">
+                              <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              
+                            </div>
+                            <div class="mb-3 text-white" >
+                              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            
+                          </form>
         
-                        <div class="checkbox mb-3 modal-title text-center text-white" style="font-size: 1rem ">
+                        <div class="checkbox mb-3 modal-title text-center text-white" style="font-size: 1rem text-white">
                             <label>
                                 <input type="checkbox" value="remember-me"> Recordar mi contraseña
                             </label>
@@ -140,7 +152,6 @@
           </div>
         </div>
       </div>
-
     
 
      <!-- FOOTER -->
