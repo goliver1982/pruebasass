@@ -1,35 +1,3 @@
-h1 {
-  color: aquamarine; }
-
-/*MAP*/
-.botUno {
-  color: bisque; }
-
-.botDos {
-  color: green; }
-
-.botTres {
-  color: yellow; }
-
-/* MAP - GET*/
-.guadaGraf {
-  background-color: aquamarine;
-  font-size: 25px; }
-
-/*Extend*/
-.estiloPrimario, .estiloSecundario {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: italic;
-  text-align: center; }
-
-.estiloSecundario {
-  font-weight: bold; }
-
-.titulosEsiloPrimario {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1rem;
-  text-align: justify; }
-
 /*HEADER*/
 .tamLogo {
   width: auto; }
@@ -62,10 +30,60 @@ h5:hover {
 h3 {
   font-size: 130%; }
 
-/*CARROUSEL*/
-.letraCarrousel {
-  color: black;
-  background-color: #eaee2b;
+.nav {
+  background-color: black; }
+
+.navBar {
+  background-color: black; }
+
+.container {
+  background-color: black; }
+
+.anclaColorFondo {
+  background-color: black; }
+
+header {
+  background-color: black; }
+
+body {
+  background-color: black; }
+
+#navbarNav {
+  background-color: black; }
+
+.barra {
+  background-color: black; }
+
+.navbar {
+  margin-top: 50%;
+  margin-left: 100%;
+  background-color: black; }
+
+/*MEDIA QUERY CELU*/
+@media (max-width: 768px) {
+  body {
+    background-color: black; }
+  h5 {
+    color: #eaee2b; }
+  h2 {
+    color: #eaee2b; }
+  .navbar {
+    background-color: #eaee2b; } }
+
+.btn {
+  background-color: #eaee2b; }
+
+/*MEDIA QUERY TABLET*/
+h2 {
   text-align: center;
-  border-color: blanchedalmond;
-  border-width: 10%; }
+  margin: 2%;
+  background-color: #eaee2b; }
+
+.subtitulo {
+  font-size: 20px; }
+
+.botonSumate {
+  background-color: black; }
+
+.botonSum {
+  background-color: black; }
